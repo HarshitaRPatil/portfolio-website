@@ -104,17 +104,6 @@
             color: #e67e22;
         }
 
-        footer {
-            text-align: center;
-            padding: 2em 0;
-            background-color: #494d51;
-            color: #ddd;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
         .dynamic-content {
             display: none;
             margin-top: 1em;
@@ -212,18 +201,24 @@
         <h2>Blogs</h2>
         <p>Here’s where I share my thoughts on music, photography, and web development:</p>
         <ul>
-            <li><a href="javascript:void(0)" onclick="toggleContent('blog1')">The Rhythm of My Life: Why Music Matters</a></li>
-            <div id="blog1" class="dynamic-content">
-                <p>Explore how music influences my life, fuels my creativity, and serves as a source of inspiration during challenging times.</p>
-            </div>
-            <li><a href="javascript:void(0)" onclick="toggleContent('blog2')">Capturing Moments: My Passion for Photography</a></li>
-            <div id="blog2" class="dynamic-content">
-                <p>Join me on my journey through the lens as I share tips, techniques, and experiences in photography.</p>
-            </div>
-            <li><a href="javascript:void(0)" onclick="toggleContent('blog3')">The Joy of Learning: Exploring Web Development</a></li>
-            <div id="blog3" class="dynamic-content">
-                <p>My journey of discovering the world of web development, the challenges I face, and the joy of creating.</p>
-            </div>
+            <li>
+                <a href="javascript:void(0)" onclick="toggleContent('blog1')">The Rhythm of My Life: Why Music Matters</a>
+                <div id="blog1" class="dynamic-content">
+                    <p>Explore how music influences my life, fuels my creativity, and serves as a source of inspiration during challenging times.</p>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="toggleContent('blog2')">Capturing Moments: My Passion for Photography</a>
+                <div id="blog2" class="dynamic-content">
+                    <p>Join me on my journey through the lens as I share tips, techniques, and experiences in photography.</p>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="toggleContent('blog3')">The Joy of Learning: Exploring Web Development</a>
+                <div id="blog3" class="dynamic-content">
+                    <p>My journey of discovering the world of web development, the challenges I face, and the joy of creating.</p>
+                </div>
+            </li>
         </ul>
     </section>
 
